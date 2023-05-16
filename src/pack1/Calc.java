@@ -1,4 +1,4 @@
-package package1;
+package pack1;
 
 public class Calc {
 	public static int sum(int a, int b) {
