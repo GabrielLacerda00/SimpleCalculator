@@ -13,9 +13,6 @@ public class Calc {
 		return a * b;
 	}
 	
-	public float division(int a, int b) {
-		return a / b;
-	}
 	
 	public void printAdd(int a, int b) {
 		System.out.println(sum(a,b));
