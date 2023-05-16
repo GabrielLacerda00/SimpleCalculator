@@ -1,7 +1,7 @@
 package package1;
 
 public class Calculator {
-	public static int add(int a, int b) {
+	public static int sum(int a, int b) {
 		return a + b;
 	}
 	
@@ -15,5 +15,9 @@ public class Calculator {
 	
 	public float division(int a, int b) {
 		return a / b;
+	}
+	
+	public void printAdd(int a, int b) {
+		System.out.println(add(a,b));
 	}
 }
