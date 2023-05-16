@@ -1,6 +1,6 @@
 package pack1;
 
-public class Calc extends MathOperationAbs{
+public class Calc{
 	
 	public static int sum(int a, int b) {
 		return a + b;
@@ -10,7 +10,7 @@ public class Calc extends MathOperationAbs{
 		return a - b;
 	}
 	
-	@Override
+	
 	public int multiply(int a, int b) {
 		return a * b;
 	}
