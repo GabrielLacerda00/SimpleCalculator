@@ -18,6 +18,6 @@ public class Calculator {
 	}
 	
 	public void printAdd(int a, int b) {
-		System.out.println(add(a,b));
+		System.out.println(sum(a,b));
 	}
 }
